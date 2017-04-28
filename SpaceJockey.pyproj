@@ -55,6 +55,8 @@
     <Folder Include="SpaceJockey\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include=".skipDjango" />
+    <Content Include=".skipPythonDeployment" />
     <Content Include="app\static\web.config" />
     <None Include="SpaceJockey - Web Deploy.pubxml" />
     <Content Include="web.config" />
