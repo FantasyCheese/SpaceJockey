@@ -7,7 +7,8 @@ from django.conf.urls import url
 import django.contrib.auth.views
 
 import app.forms
-import app.views
+# import app.views
+from app.views import MyRESTView
 
 # Uncomment the next lines to enable the admin:
 # from django.conf.urls import include
@@ -16,7 +17,8 @@ import app.views
 
 urlpatterns = [
     # Examples:
-    url(r'^$', app.views.home, name='home'),
+    # url(r'^$', app.views.home, name='home'),
+    url(r'^$', MyRESTView.as_view(), name='my_rest_view'),
     url(r'^contact$', app.views.contact, name='contact'),
     url(r'^about', app.views.about, name='about'),
     url(r'^login/$',

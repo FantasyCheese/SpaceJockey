@@ -27,7 +27,7 @@ SECRET_KEY = 'c471e0e0-7845-4508-8114-e38a49c2a820'
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    "spacejockey.azurewebsites.net", "localhost"
+    "spacejockey.azurewebsites.net", "localhost", "127.0.0.1"
 ]
 
 
