@@ -27,7 +27,7 @@ SECRET_KEY = 'c471e0e0-7845-4508-8114-e38a49c2a820'
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    "spacejockey.azurewebsites.net", "localhost", "127.0.0.1"
+    "spacejockey.azurewebsites.net", "localhost", "127.0.0.1", "10.20.12.205"
 ]
 
 
@@ -36,6 +36,7 @@ ALLOWED_HOSTS = [
 INSTALLED_APPS = [
     'app',
     # Add your apps here to enable them
+    'rest_framework',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
